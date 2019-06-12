@@ -1,4 +1,4 @@
-import {prop, Typegoose} from 'typegoose';
+import {prop, Typegoose} from '@robinwongm/typegoose';
 import * as nest from '@nestjs/common';
 import {InjectModel} from './typegoose.decorators';
 

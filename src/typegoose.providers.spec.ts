@@ -1,4 +1,4 @@
-import { prop, Typegoose } from 'typegoose';
+import { prop, Typegoose } from '@robinwongm/typegoose';
 import { convertToTypegooseClassWithOptions, createTypegooseProviders } from './typegoose.providers';
 import * as mongoose from 'mongoose';
 import { Connection } from 'mongoose';

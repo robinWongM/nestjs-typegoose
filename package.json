@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-typegoose",
-  "version": "5.2.0",
+  "name": "@robinwongm/nestjs-typegoose",
+  "version": "5.2.1",
   "description": "A nestjs module wrapper for typegoose",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,17 +17,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kpfromer/nestjs-typegoose"
+    "url": "https://github.com/robinWongM/nestjs-typegoose"
   },
   "peerDependencies": {
     "mongoose": "^5.5.13",
     "@nestjs/common": "^6.3.1",
     "@nestjs/core": "^6.3.1",
-    "typegoose": "^5.7.1"
+    "@robinwongm/typegoose": "^5.7.1"
   },
   "dependencies": {
-    "reflect-metadata": "^0.1.13",
-    "is-class": "^0.0.7"
+    "is-class": "^0.0.7",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@nestjs/common": "^6.3.1",
@@ -47,7 +47,7 @@
     "supertest": "latest",
     "ts-jest": "^24.0.2",
     "tslint": "^5.17.0",
-    "typegoose": "^5.2.1",
+    "@robinwongm/typegoose": "^5.2.1",
     "typescript": "3.5.1"
   },
   "jest": {
